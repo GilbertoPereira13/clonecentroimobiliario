@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Imobiliário - Imóveis em Peruíbe, Itanhaém e Santos</title>
+    <meta name="description" content="O Centro Imobiliário é o lugar ideal para comprar ou anunciar imóveis em Peruíbe, Itanhaém e Santos. Conte com uma imobiliária com mais de 15 anos de tradição.">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- WhatsApp contact-->
+    <a href="https://api.whatsapp.com/send?phone=5513974096316&text=Quero%20ter%20mais%20informa%c3%a7%c3%b5es%20e%20tirar%20algumas%20d%c3%bavidas" target="_blank" class="wpp-contact">
+        <div class="badge">1</div>
+        <img src="img/ativo-2.png">
+        <div class="text">Atendimento via Whatsapp</div>
+    </a>
+
+    <div id="menu" class="menu effect">
+        <nav class="nav-effect-menu">
+            <div style="text-align: center;">
+                <button id="btnClose">X</button>
+            </div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">ANUNCIE SEU IMÓVEL</a></li>
+                <li><a href="#">TRABALHE CONOSCO</a></li>
+                <li><a href="#">LOCALIZAÇÃO</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="">MEUS FAVORITOS</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <nav class="nav-menu" id="menuFixo">
+        <div class="container-menu">
+            <img class="principal-logo" src="img/logo-branco.png" alt="" style="max-width: 185px;">
+
+            <div class="see-phone" onclick="phoneButon()">
+                <img class="see-phone-icon" src="img/call-answer.png" alt="">
+                <span class="phoneText">Ver Telefone</span>     
+            </div>
+            
+        </div>
+
+        <a class="hamburguer-menu" id="btnMenu">
+            <img src="img/icon-menu.png" style="max-width:25px; max-height: 20px;" alt="">
+        </a>
+    </nav>
+
+    <header id="principal-container">
+        <div class="main-search">
+
+            <h1 class="main-search-title">Chegou a hora de encontrar<br>
+                <b>o seu imóvel no litoral</b>
+            </h1>
+
+            <div id="mainSearch">
+                <form action="" class="main-form">
+                    <select name="tipo" id="select-type" class="select-style">
+                        <option value="">Tipo...</option>
+                        <option value="">Todos os Tipos</option>
+                        <option value="">Apartamento</option>
+                        <option value="">Casa</option>
+                        <option value="">Terreno</option>
+                    </select>
+
+                    <select name="" id="" class="select-style">
+                        <option value="">Cidade...</option>
+                        <option value="">Todas as cidades</option>
+                        <option value="">Peruíbe</option>
+                        <option value="">Itanhaém</option>
+                        <option value="">Santos</option>
+                    </select>
+
+                    <input type="text" placeholder="      Piscina, Numero de dormitórios, etc" class="input-style">
+                    <input type="submit" value="Buscar" class="btn-style">
+                </form>
+                <div class="divFormButton">
+                    <button class="formButton">Busca por referência</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- First Section -->
+        <section class="first-section">
+            <div class="container divider">
+                <div class="section-title">
+                    <h3>Caso prefira, busque seu imóvel por categorias:</h3>
+                </div>
+                <div class="container-content">
+                    <div class="category-row parent">
+                        <div class="row-items div1">
+                            <a href="" class="card-link">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="img/star.png" alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        Destaque da semana
+                                    </div>
+                                </div>
+                            </a>
+    
+                        </div>
+    
+                        <div class="row-items div2">
+                            <a href="" class="card-link">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="img/swimming-pool.png" alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        Imóveis com piscina
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="row-items div3">
+                            <a href="" class="card-link">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="img/beach.png" alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        Imóveis perto da praia
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="row-items div4">
+                            <a href="" class="card-link">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="img/price.png" alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        Baixaram o preço
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="row-items div5">
+                            <a href="" class="card-link">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="img/family.png" alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        Para famílias grandes
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="row-items div6">
+                            <a href="" class="card-link">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="img/condominium.png" alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        Imóveis em condomínio
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container-content">
+                <div class="sell">
+                    <div>
+                        Quer <b>vender</b> seu imóvel? Preencha o nosso formulário: 
+                    </div>
+                    <a href="" class="sell-link">
+                        <div class="sell-button">Anuncie Aqui</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client-->
+        <section class="second-section">
+
+            <div class="container-title"><!-- titulo -->
+                <h1 class="second-title">Em dúvida sobre comprar um imóvel?</h1>
+            </div>
+
+            <div class="container-second"> <!-- Div Container -->
+                <div class="second-imagem"></div><!-- Imagem-->
+                <div class="second-text"><!-- Texto do anuncio -->
+                    <div class="annoucement-text"> <!-- container interno -->
+                        <h2 class="annoucement-title">Saiba se você pode financiar um imóvel</h2>
+                        <p>Ajudamos você a simular os valores de entrada e parcelas do seu financeiro</p>
+                        <div class="btn-annoucement"><!-- Botao do Anuncio -->
+                            <a href="" class="btn-annoucement-link">
+                                CLIQUE E FAÇA UMA SIMULAÇÃO GRÁTIS
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-second">
+
+                <div class="container-row">
+
+                    <div class="client-card">
+                        <img src="img/conhecer-processo.png" class="img-card" alt="">
+                        <div class="client-card-text linear-color">
+                            <div>"Ainda tenho dúvidas sobre o processo de compra de um imóvel."</div>
+                            <a href="" class="client-card-btn">
+                                <div> SAIBA MAIS</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="client-card">
+                        <img src="img/conhecer-regiao.png" class="img-card" alt="">
+                        <div class="client-card-text linear-color2">
+                            <div>"Gostaria de conhecer melhor a região antes de me mudar."</div>
+                            <a href="" class="client-card-btn">
+                                <div> SAIBA MAIS</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="client-card">
+                        <img src="img/conhecer-ci.png" class="img-card" alt="">
+                        <div class="client-card-text linear-color3">
+                            <div>"Preciso saber mais sobre o Centro Imobiliário para fazer negócio."</div>
+                            <a href="" class="client-card-btn">
+                                <div> SAIBA MAIS</div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container-second-image">
+                <div class="container-second form-flex">
+
+                    <div class="form-row"> 
+                        <div class="container-form">
+                            <div class="form-description">
+                                <h3 class="form-description-title">Você possui alguma dúvida que não se enquadra em nenhum dos temas acima?</h3>
+                                <p>Sem problemas! Basta nos enviar uma mensagem por meio do formulário e nossa equipe entrará
+                                    em contato o quanto antes.
+                                </p>
+                            </div>
+                            <form action="" class="form-style">
+                                <input type="text"  placeholder="Nome" class="form-input-style">
+                                <input type="email" placeholder="Email" class="form-input-style">
+                                <input type="text" placeholder="Assunto" class="form-input-style">
+                                <textarea name="" id="" cols="30" rows="7" placeholder="Mensagem"></textarea>
+                                <a href="">
+                                    <div class="form-btn-style">Enviar</div>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="footer-container">
+            <div class="footer-left-side">
+                <p class="footer-title">INSTITUCIONAL</p>
+                <p><a href="#">Localização</a></p>
+                <br>
+                <p><a href="#">Trabalhe conosco</a></p>
+            </div>
+            <div class="footer-right-side">
+                <div class="logo-footer">
+                    <img src="img/logo-nova.png" alt="">
+                    <p>Seu imóvel no litoral</p>
+                </div>
+                <div>
+                    <span>F</span>
+                    <span>I</span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-footer">
+            &copy; 2022 Centro Imobiliario LTDA - CRECI J-22277
+        </div>
+
+    </footer>
+
+   
+    <script src='js/script.js'></script>
+</body>
+</html>

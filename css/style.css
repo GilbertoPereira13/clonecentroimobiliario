@@ -536,6 +536,7 @@ img{
 }
 
 .client-card{
+    width: 30%;
     font-family: 'Montserrat',sans-serif;
     display: flex;
     position: relative;
